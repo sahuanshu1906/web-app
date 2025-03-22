@@ -1,4 +1,4 @@
 FROM nginx
 WORKDIR /web-app
-COPY . /user/share/nginx/html
+COPY . /usr/share/nginx/html
 EXPOSE 80
